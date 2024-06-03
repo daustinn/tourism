@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Descubre Ayacucho, Lugares Históricos y Naturales',
   description:
-    'Descubre Ayacucho, Lugares Históricos y Naturales, Turismo, Viajes y más'
+    'Descubre Ayacucho, Lugares Históricos y Naturales, Turismo, Viajes y más',
+  icons: '/favicon.ico'
 }
 
 export default function RootLayout({ children }) {

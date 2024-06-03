@@ -1,7 +1,6 @@
 'use client'
 
 import { Eye } from 'lucide-react'
-import { ArrowRight } from 'lucide-react'
 import React from 'react'
 
 export const ViewsPage = () => {

@@ -1,78 +1,168 @@
 [
   {
     "id": 1,
-    "thumbnail": "/intro/1.webp",
-    "title": "Catedral de Santa María",
-    "category": "churches",
-    "location": "Plaza de la Catedral, 8, 03002 Alicante, España",
-    "description": "La Concatedral de San Nicolás de Bari es un templo religioso de culto católico situado en la ciudad de Alicante (España).",
-    "latitude": 38.3463,
-    "longitude": -0.4814,
-    "rating": 4.1
+    "title": "Plaza Mayor de Ayacucho",
+    "category": "parks",
+    "location": "Plaza de la Catedral",
+    "description": "La Plaza Mayor de Ayacucho es el corazón de la ciudad y un punto de partidaperfecto para tu viaje. Rodeada de majestuosas iglesias coloniales como la Catedral de Ayacuchoy la Iglesia de San Francisco, la plaza es un testimonio de la arquitectura colonial española. Durante la Semana Santa, la plaza se llena de coloridas alfombras de flores, convirtiéndose en un espectáculo imperdible yuno de los principales atractivos turísticos de Ayacucho.",
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717455848/places/gd8r1bx6hzb9pddyjm0u.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717455847/places/rioacvbh5zlzirdbx1xq.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717455847/places/nbhbmsjn4rclmazkngm4.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717455847/places/esqh2z5mgrmqlpf41koq.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717455847/places/v4xvswmi7l5k2oga4ebb.jpg"
+    ],
+    "rating": 4.5
   },
   {
     "id": 2,
-    "thumbnail": "/intro/2.webp",
-    "title": "Museo Arqueológico de Alicante",
-    "category": "museums",
-    "location": "Plaza Dr. Gómez Ulla, s/n, 03013 Alicante, España",
-    "description": "El Museo Arqueológico de Alicante (MARQ) es un museo arqueológico situado en la ciudad de Alicante (España).",
-    "latitude": 38.3452,
-    "longitude": -0.4817,
-    "rating": 4.8
+    "title": "Complejo Arqueológico de Wari",
+    "category": "places",
+    "location": "Ayacucho-Quinua Km. 23 Pacaycasa Ayacucho 05000 Perú",
+    "description": "el sitio arqueológico de Wari es una ventana al pasado preincaico de la región. Aquípodrás explorar las ruinas de una antigua civilización que floreció hace más de mil años.Las estructuras de piedra, los templos y los sistemas de canales de riego son testimonios de lahabilidad de los Wari en la construcción y la agricultura.",
+    "latitude": -13.0616,
+    "longitude": -74.1983,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456196/places/qcrlnr74xappxf2c9znd.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456196/places/hla6poxua1d1leduumrv.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456196/places/tpci7gzy1jsibbjqqslb.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456196/places/cb60yinfb4q0iq5zhkvt.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456196/places/iwvuavfc9mwfxp7ylhbt.jpg"
+    ],
+    "rating": 4.5
   },
   {
     "id": 3,
-    "thumbnail": "/intro/3.webp",
-    "title": "Parque de Canalejas",
-    "category": "parks",
-    "location": "Av. de Federico Soto, 1, 03003 Alicante, España",
-    "description": "El Parque de Canalejas es un parque situado en la ciudad de Alicante (España).",
-    "latitude": 38.3452,
-    "longitude": -0.4817,
-    "rating": 4.3
+    "title": "Mirador de Acuchimay",
+    "category": "places",
+    "location": "Carmen Alto Cerro Acuchimay, Ayacucho, Perú",
+    "description": "Para los amantes de la naturaleza y las vistas panorámicasel Mirador de Acuchimay es un lugar imprescindible. Desde este miradorpodrás admirar la belleza de los Andes peruanos y el Valle de Ayacucho.Es el lugar perfecto para tomar fotografías espectaculares y apreciar la tranquilidad de la naturaleza.",
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456470/places/vkf4rz6flcniydj3zltp.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456470/places/trpzwzzlfzqfdprfstku.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456470/places/dqaki03mqxatyl5jw09e.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456470/places/j7zio3sliy8zrdfjyjjc.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456470/places/ojk2v0uv4njgw93dchxw.jpg"
+    ],
+    "rating": 4.5
   },
   {
     "id": 4,
-    "thumbnail": "/intro/4.webp",
-    "title": "Restaurante Dársena",
-    "category": "restaurants",
-    "location": "Muelle de Levante, 6, 03001 Alicante, España",
-    "description": "El Restaurante Dársena es un restaurante situado en el puerto de Alicante (España).",
-    "latitude": 38.3452,
-    "longitude": -0.4817,
+    "title": "Museo Hipólito Unanue",
+    "category": "museums",
+    "location": "Independencia 502 Ayacucho 05001",
+    "description": "Este museo es una joya cultural que alberga una impresionante colección de arte religiosoarqueología, y arte popular de la región. El Museo Hipólito Unanue es una excelente manera de aprender sobre la historia y la diversidad artística de Ayacucho.",
+    "latitude": -13.14733,
+    "longitude": -74.22326,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456707/places/t2oii3d2miixuale6oae.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456707/places/urspvyt8m1sr7uyjlffh.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456707/places/h40oairenpgl1n5f3fiw.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456707/places/f54x6rscebbirvnwv8gr.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456707/places/greilmmyj4zqrhjxrl3s.jpg"
+    ],
     "rating": 4.5
   },
   {
     "id": 5,
-    "thumbnail": "/intro/5.webp",
-    "title": "Hotel Meliá Alicante",
-    "category": "hotels",
-    "location": "Plaza del Puerto, 3, 03001 Alicante, España",
-    "description": "El Hotel Meliá Alicante es un hotel situado en el puerto de Alicante (España).",
-    "latitude": 38.3452,
-    "longitude": -0.4817,
-    "rating": 4.1
+    "title": "Millpu",
+    "category": "places",
+    "location": "6VX8+496 Centro Poblado de Circamarca 05410",
+    "description": "Las Cataratas de Millpu son un conjunto de cascadas de aguas turquesas ubicadas en la provincia de Lucanas.El sendero hacia las cataratas ofrece vistas impresionantes y, una vez que llegues allí, podrás nadar en las piscinas naturales que se forman debajo de las cascadas. Es uno de los lugares turísticos de Ayacucho de mayor crecimiento.",
+    "latitude": -13.75046875,
+    "longitude": -74.1322454311642,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456889/places/h6cxuyi2ki5gg0fn7zln.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456888/places/ba0k46ovywj2esdb6i4m.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456889/places/wrrofghfqwbrz0jxrxv7.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456889/places/vnmqv9bsyp4jfzrws0ls.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717456889/places/ze9d6hbywpvzwarbuph7.jpg"
+    ],
+    "rating": 4.5
   },
   {
     "id": 6,
-    "thumbnail": "/intro/6.webp",
-    "title": "Playa del Postiguet",
-    "category": "beaches",
-    "location": "Av. de Jovellanos, s/n, 03002 Alicante, España",
-    "description": "La Playa del Postiguet es una playa situada en la ciudad de Alicante (España).",
-    "latitude": 38.3452,
-    "longitude": -0.4817,
+    "title": "Obelisco de la Pampa de la Quinua",
+    "category": "places",
+    "location": "3275 msnm en las cercanías del pueblo de Quinua a 37 km. al noroeste de la ciudad colonial de Huamanga.",
+    "description": "La Pampa de Ayacucho, situada en la región central de Perú, es un vasto y majestuoso espacio que testimonia la historia y la cultura de esta tierra. Conocida por su significado histórico, la Pampa fue el escenario de la Batalla de Ayacucho, un enfrentamiento que selló la independencia de América del Sur. Más allá de su importancia histórica, la Pampa de Ayacucho ofrece una belleza natural impresionante, con extensos campos abiertos y paisajes que capturan la esencia de la región. Este vasto territorio es un testimonio tangible de la riqueza cultural y geográfica de Ayacucho, invitando a los visitantes a explorar sus amplios horizontes y a sumergirse en la serenidad que emana de sus vastas llanuras.",
+    "latitude": -13.0308,
+    "longitude": -74.1226,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457054/places/qsssjefnzmozgr7eujgc.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457054/places/a3lbcgmht3rliytg5ruk.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457054/places/o9gwtmaat3o3bn3qog5e.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457054/places/idryofvbj12x85rjd6rw.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457054/places/txm5hkpsxhpr6wul5pjl.jpg"
+    ],
     "rating": 4.5
   },
   {
     "id": 7,
-    "thumbnail": "/intro/7.webp",
-    "title": "Castillo de Santa Bárbara",
-    "category": "castles",
-    "location": "Monte Benacantil, s/n, 03002 Alicante, España",
-    "latitude": 38.3452,
-    "longitude": -0.4817,
+    "title": "Vilcashuaman",
+    "category": "places",
+    "location": "13°37' de latitud sur y 73°57' de longitud oeste, aproximadamente a 100 kilómetros, en línea recta, de la ciudad de Ayacucho.",
+    "description": "Vilcashuamán, un tesoro arqueológico enclavado en la región de Ayacucho, Perú, deslumbra con su legado histórico y su impresionante arquitectura. Rodeado por paisajes montañosos y valles fértiles, este sitio arqueológico alberga las ruinas de una antigua ciudad incaica que sirvió como centro ceremonial y administrativo. La imponente Fortaleza de Vilcashuamán, con sus muros de piedra perfectamente labrados, se erige como testimonio de la maestría arquitectónica de los incas. Cada rincón de Vilcashuamán cuenta una historia fascinante que transporta a los visitantes a épocas pasadas, revelando la sofisticación cultural y espiritual de esta civilización ancestral. La serenidad que impregna el ambiente y las vistas panorámicas desde la fortaleza hacen de Vilcashuamán un destino único que invita a explorar la riqueza histórica de Ayacucho.",
+    "latitude": -13.6531,
+    "longitude": -73.954,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457274/places/rt7bhzejvxd4bxj3rd2r.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457274/places/gup5pfnsjsqzmprc2aqf.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457274/places/pu54ipupwancqxshwz1y.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457274/places/wfl3vahphuc9gqnfoh28.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457274/places/e8qfn3hn09r78u1tpefn.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "title": "Catedral de Ayacucho",
+    "category": "churches",
+    "location": "Plaza Mayor n° 100, Ayacucho 05000 Perú",
+    "description": "La Catedral de Ayacucho, joya arquitectónica en el corazón de la ciudad homónima en Perú, se erige como un testimonio imponente de la historia y la fe. Construida en el siglo XVII, esta majestuosa catedral fusiona estilos barrocos y renacentistas, exhibiendo una fachada esculpida con maestría y una rica ornamentación. Al ingresar, los visitantes quedan maravillados por la magnificencia de sus altares dorados, retablos tallados a mano y una impresionante colección de arte religioso. La Catedral no solo es un símbolo de la devoción de Ayacucho, sino también un museo vivo que preserva la herencia cultural y espiritual de la región. Cada rincón de este sagrado edificio cuenta una historia que trasciende los siglos, convirtiéndolo en un destino esencial para aquellos que buscan sumergirse en la riqueza histórica y artística de Ayacucho.",
+    "latitude": -13.1607,
+    "longitude": -74.2252,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457450/places/xdcy7cgun5et6vy6uqwf.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457450/places/jtyamkybtvnrllgru14w.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457450/places/kuhmtzcxnwuqzt36f3s7.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457450/places/uwznsshwtlgnxefeaaee.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457451/places/dlymf4oaajqsdkhisk0x.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 9,
+    "title": "Museo Casa del Retablo",
+    "category": "museums",
+    "location": "Los Artesanos Mz F Lt 1 A 250m Del Terminal, Ayacucho 05001 Perú",
+    "description": "El Museo Casa del Retablo en Ayacucho, Perú, es un tesoro cultural que celebra la rica tradición de la artesanía local y la devoción religiosa. Este museo, ubicado en una encantadora casa colonial, alberga una extraordinaria colección de retablos, obras de arte tridimensionales talladas en madera que representan escenas religiosas y cotidianas. Los retablos exhibidos en este espacio cautivan con su detalle minucioso y colores vibrantes, mostrando la habilidad artística de los maestros artesanos ayacuchanos. Además de ser un escaparate de la destreza artística, la Museo Casa del Retablo ofrece a los visitantes una inmersión en la cultura y las tradiciones locales, proporcionando una visión única de la esencia creativa de Ayacucho y su conexión intrínseca con la historia y la espiritualidad.",
+    "latitude": -13.13634,
+    "longitude": -74.23203,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457602/places/vqofs4ovtijwf5ucqft0.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457602/places/xmfa6quqm2vprx9ftlkf.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457602/places/twlb14cxwcc3jlkpurbw.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457602/places/di9uqorvl0hretkbmffp.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457602/places/ogiwwvuzi3vcvjkejjnr.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 10,
+    "title": "Cueva de Pikimachay",
+    "category": "places",
+    "location": "Distrito de Pacaycasa, en la provincia de Huamanga- Ayacucho,",
+    "description": "Las cuevas de Pikimachay, situadas en el distrito de Pacaycasa, provincia de Huamanga, en Ayacucho, se encuentran a 2,850 metros sobre el nivel del mar y tienen una antigüedad de aproximadamente 20,000 años. Descubiertas por el arqueólogo estadounidense Richard Mac Neish en 1969, estas cuevas formaban parte del Complejo Cultural Pacaicasa. Morfológicamente, las cuevas parecen un ojo abierto en la base de un peñasco calcáreo de tonalidad amarillosa. Estas cuevas sirvieron como morada temporal y depósito para uno de los grupos humanos más antiguos de Sudamérica y del Perú. Durante las investigaciones, se encontraron herramientas primitivas, como chancadoras, descarnadores, raspadores y punzones, además de restos que sugieren la domesticación temprana de cuyes y camélidos, así como los primeros horticultores de maíz, con evidencias de 5,000 años de antigüedad.No se encontraron restos humanos directos, aunque se halló una mandíbula infantil. Los vestigios animales incluyen huesos de osos perezosos de 14,000 años, mastodontes, tigres dientes de sable y equinos, indicando que estos animales existieron en la región antes de la colonización española.",
+    "latitude": -13.0399,
+    "longitude": -74.2244,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/elxzealuba9dc21pvdyi.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/i0ruhqabqbxahab4n6qz.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/dsef1crduuuxddkwvu3l.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/t2nhoknlq973hs1y2io3.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/zwjqjlufrtrtq6vcvwjz.jpg"
+    ],
     "rating": 4.5
   }
 ]

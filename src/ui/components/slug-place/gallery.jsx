@@ -1,8 +1,8 @@
 import React from 'react'
 
 export const GalleryPlace = ({ place }) => {
-  const thumbnail = [place.id]
-  const images = [1, 2, 3, 4, 6, 7, 8].filter((image) => image !== place.id)
+  const thumbnail = [place.thumbnail]
+  const images = place.images.filter((image) => image !== place.id)
   const gallery = thumbnail.concat(images).slice(0, 5)
   return (
     <div className="w-full rounded-2xl overflow-hidden">
@@ -16,7 +16,7 @@ export const GalleryPlace = ({ place }) => {
           `}
           >
             <img
-              src={`/intro/${image}.webp`}
+              src={image}
               alt={place.title}
               className="w-full h-full group-hover:opacity-70 transition-all object-cover"
             />

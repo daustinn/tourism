@@ -14,7 +14,9 @@ export const Footer = () => {
               </a>
             </p>
             <a
-              href="/"
+              href="https://github.com/daustinn/tourism"
+              target="_blank"
+              rel="noopener noreferrer"
               className="items-center flex gap-2 text-black hover:underline"
             >
               <Github size={15} />

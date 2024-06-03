@@ -1,7 +1,7 @@
-import { Carrusel } from '@/ui/components/carrusel'
-import { ViewsPage } from '@/ui/components/views'
 import { ArrowRight } from 'lucide-react'
 import { Tai_Heritage_Pro } from 'next/font/google'
+import { Carrusel } from './carrusel'
+import { ViewsPage } from './views'
 
 const font = Tai_Heritage_Pro({
   subsets: ['latin'],
@@ -16,7 +16,9 @@ export const Hero = () => {
       <header className="">
         <div className="flex items-center gap-2 mb-5">
           <a
-            href=""
+            href="https://github.com/daustinn/tourism"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-red-700 flex items-center group rounded-xl p-2 shadow-md shadow-red-500/20 px-3 font-semibold text-white"
           >
             #Open Source{' '}

@@ -5,6 +5,8 @@
     "category": "parks",
     "location": "Plaza de la Catedral",
     "description": "La Plaza Mayor de Ayacucho es el corazón de la ciudad y un punto de partidaperfecto para tu viaje. Rodeada de majestuosas iglesias coloniales como la Catedral de Ayacuchoy la Iglesia de San Francisco, la plaza es un testimonio de la arquitectura colonial española. Durante la Semana Santa, la plaza se llena de coloridas alfombras de flores, convirtiéndose en un espectáculo imperdible yuno de los principales atractivos turísticos de Ayacucho.",
+    "latitude": -13.16023,
+    "longitude": -74.22604,
     "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717455848/places/gd8r1bx6hzb9pddyjm0u.jpg",
     "images": [
       "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717455847/places/rioacvbh5zlzirdbx1xq.jpg",
@@ -17,7 +19,7 @@
   {
     "id": 2,
     "title": "Complejo Arqueológico de Wari",
-    "category": "places",
+    "category": "ruins",
     "location": "Ayacucho-Quinua Km. 23 Pacaycasa Ayacucho 05000 Perú",
     "description": "el sitio arqueológico de Wari es una ventana al pasado preincaico de la región. Aquípodrás explorar las ruinas de una antigua civilización que floreció hace más de mil años.Las estructuras de piedra, los templos y los sistemas de canales de riego son testimonios de lahabilidad de los Wari en la construcción y la agricultura.",
     "latitude": -13.0616,
@@ -100,7 +102,7 @@
   {
     "id": 7,
     "title": "Vilcashuaman",
-    "category": "places",
+    "category": "ruins",
     "location": "13°37' de latitud sur y 73°57' de longitud oeste, aproximadamente a 100 kilómetros, en línea recta, de la ciudad de Ayacucho.",
     "description": "Vilcashuamán, un tesoro arqueológico enclavado en la región de Ayacucho, Perú, deslumbra con su legado histórico y su impresionante arquitectura. Rodeado por paisajes montañosos y valles fértiles, este sitio arqueológico alberga las ruinas de una antigua ciudad incaica que sirvió como centro ceremonial y administrativo. La imponente Fortaleza de Vilcashuamán, con sus muros de piedra perfectamente labrados, se erige como testimonio de la maestría arquitectónica de los incas. Cada rincón de Vilcashuamán cuenta una historia fascinante que transporta a los visitantes a épocas pasadas, revelando la sofisticación cultural y espiritual de esta civilización ancestral. La serenidad que impregna el ambiente y las vistas panorámicas desde la fortaleza hacen de Vilcashuamán un destino único que invita a explorar la riqueza histórica de Ayacucho.",
     "latitude": -13.6531,
@@ -151,7 +153,7 @@
   {
     "id": 10,
     "title": "Cueva de Pikimachay",
-    "category": "places",
+    "category": "ruins",
     "location": "Distrito de Pacaycasa, en la provincia de Huamanga- Ayacucho,",
     "description": "Las cuevas de Pikimachay, situadas en el distrito de Pacaycasa, provincia de Huamanga, en Ayacucho, se encuentran a 2,850 metros sobre el nivel del mar y tienen una antigüedad de aproximadamente 20,000 años. Descubiertas por el arqueólogo estadounidense Richard Mac Neish en 1969, estas cuevas formaban parte del Complejo Cultural Pacaicasa. Morfológicamente, las cuevas parecen un ojo abierto en la base de un peñasco calcáreo de tonalidad amarillosa. Estas cuevas sirvieron como morada temporal y depósito para uno de los grupos humanos más antiguos de Sudamérica y del Perú. Durante las investigaciones, se encontraron herramientas primitivas, como chancadoras, descarnadores, raspadores y punzones, además de restos que sugieren la domesticación temprana de cuyes y camélidos, así como los primeros horticultores de maíz, con evidencias de 5,000 años de antigüedad.No se encontraron restos humanos directos, aunque se halló una mandíbula infantil. Los vestigios animales incluyen huesos de osos perezosos de 14,000 años, mastodontes, tigres dientes de sable y equinos, indicando que estos animales existieron en la región antes de la colonización española.",
     "latitude": -13.0399,
@@ -162,6 +164,109 @@
       "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/dsef1crduuuxddkwvu3l.jpg",
       "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/t2nhoknlq973hs1y2io3.jpg",
       "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457741/places/zwjqjlufrtrtq6vcvwjz.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "title": "Museo Andres Avelino Caceres",
+    "category": "museums",
+    "location": "28 de Julio, Ayacucho 05003",
+    "description": "Construida entre 1640 y 1700, la edificación presenta dos etapas: una que da al jirón 28 de Julio y otra a la Calle Paqcha o Chorro, con corredores y arquerías. Al frente hay un ambiente, y otro atrás, al que se accede por una escalinata. El segundo piso se alcanza mediante una escalinata de dos descansos con balaustres de madera. Destaca especialmente la caballeriza, con dos hileras de cinco arcos de piedra caliza, única en el Perú. También es notable la escultura yacente del Cheqo Pacheco, que cubre la tumba del Corregidor de Huamanga, Juan Gutiérrez de Quintanilla. El museo cuenta con varias salas. En las salas de Arte Colonial se exhiben lienzos de la escuela Cuzqueña, Ayacuchana y del Renacimiento Europeo, así como mobiliario del arte virreinal, aldabas y petacas. La sala dedicada al Mariscal Andrés Avelino Cáceres contiene fotografías del héroe y su familia, armas antiguas, objetos personales, un baúl, un botiquín, billetes y monedas de la época.",
+    "latitude": -13.16551,
+    "longitude": -74.22725,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605423/places/pjm6pblp38zq7bm7lspg.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605423/places/oxdbtlcqvlcr3n81zbjk.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605423/places/fhoqkzce2m4dueyx0uqb.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605423/places/qz1remjpvjjdqhihgwah.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605423/places/mx2ohktehlogxdscqbub.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 12,
+    "title": "Templo de Santo Domingo",
+    "category": "churches",
+    "location": "9 de Diciembre, Ayacucho 05003",
+    "description": "El Templo de Santo Domingo, ubicado en la ciudad de Ayacucho, Perú, es una notable construcción católica de la Época Colonial. Este templo es una de las edificaciones coloniales más tempranas de la región. Según registros históricos, su construcción se llevó a cabo entre los siglos XVI y XVII. Los dominicos, fundadores del templo, llegaron a la actual provincia de Huamanga en 1542 con fines evangelizadores, lo que sugiere la existencia de un templo primitivo antes de la finalización del actual en 1561, con posteriores modificaciones en el siglo siguiente. Inicialmente, el Templo de Santo Domingo estuvo bajo la protección de la Virgen del Rosario. Estructuralmente, la iglesia presenta una notable influencia mudéjar, destacándose por su cúpula de piedra, una de las mejor conservadas en Ayacucho. La fachada del templo es especialmente llamativa, compuesta por tres arcos que soportan una galería con cubierta de tejas. Esta galería incluye dos puertas de ingreso estrechas, entre las cuales se encuentra la efigie de la Virgen del Rosario, la patrona inicial del templo.",
+    "latitude": -13.15815,
+    "longitude": -74.2251,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605708/places/c3sdfgufutoii01a8lzl.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605708/places/upohqokuqsmsruhpin5h.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605680/places/x81f3tcoluor6ldct6ls.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605680/places/cq61ovkxbep7wih0brfr.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605680/places/oyvynx8iwgtl0nri0bnf.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 13,
+    "title": "Arco del Triunfo",
+    "category": "places",
+    "location": "28 de Julio 262, Ayacucho 05003",
+    "description": "Arco del Triunfo Ayacucho, AYACUCHO (fundada como San Juan de la Frontera de Huamanga y conocida también como Huamanga) es una ciudad de Perú, capital de la provincia de Huamanga y del departamento de Ayacucho. Se encuentra situada en la vertiente oriental de la cordillera de los Andes a una altitud de 2746 msnm y se caracteriza por su clima agradable, templado y seco, con brillo solar todo el año. Es uno de los conjuntos arquitectónicos y artísticos más notables del Perú. Se le conoce como la «Ciudad de las Iglesias» por sus numerosos templos coloniales, y como «Ciudad Señorial» por su arquitectura, tradición y arte.",
+    "latitude": -13.16299,
+    "longitude": -74.2263,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605960/places/gtoxxnho2lo9anf2hrxa.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605960/places/wyvsxwyyzosigbsarq2g.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605960/places/y4o4zxnruqct3ljlq15z.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605960/places/ecttedl33wvkzoeo890v.webp",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717605961/places/kc5iranufichrznnreko.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "title": "Altipacha Ayacucho Hotel",
+    "category": "hotels",
+    "location": "JR, 28 de Julio 527, Ayacucho 05001",
+    "description": "Altipacha Ayacucho Hotel se encuentra en Ayacucho, a 2,6 km de Estadio Ciudad de Cumaná, y dispone de alojamiento con restaurante, parking privado gratis y bar. Este hotel de 3 estrellas ofrece mostrador de información turística y guardaequipaje. El alojamiento ofrece recepción 24 horas, traslado para ir o volver del aeropuerto, servicio de habitaciones y wifi gratis en todo el alojamiento. En el hotel, todas las habitaciones cuentan con escritorio, TV de pantalla plana, baño privado, ropa de cama y toallas. Todas las unidades incluyen armario.",
+    "latitude": -13.16552,
+    "longitude": -74.2272,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606183/places/iofai2l3ipcyyxhpphok.webp",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606183/places/nhuzyljlufpdypzx6j2o.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606183/places/td43sunoq6fa06ojynfv.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606183/places/amcadtnix3xwmbazsey6.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606183/places/ij1nsmqe2jteulum38qs.jpg"
+    ],
+    "rating": 4.5
+  },
+
+  {
+    "id": 15,
+    "title": "Hotel Santa Rosa",
+    "category": "hotels",
+    "location": "Jr. Lima 166, Ayacucho",
+    "description": "Se encuentra en Ayacucho, a 50 metros de la plaza principal. El Hotel Santa Rosa ofrece servicio de conserjería y conexión Wi-Fi gratuita. Este hotel de 3 estrellas cuenta con recepción 24 horas. También hay una terraza. Todas las habitaciones del hotel disponen de armario y TV de pantalla plana. Todas las habitaciones incluyen baño privado con ducha. Todas las mañanas se sirve un desayuno buffet. El Hotel Santa Rosa alberga un restaurante de cocina peruana. El establecimiento está a 4 km del aeropuerto Coronel FAP Alfredo Mendívil Duarte.",
+    "latitude": -13.15914,
+    "longitude": -74.22426,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606357/places/l2d8gxaotc00v30brjh6.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606357/places/vvzsf5fk8gnrxz7z3a9l.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606357/places/whppkhfarpwjpqb4xd2j.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606357/places/v0mmb2uwvja4leayvh47.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606357/places/yqxnhyonzad4rfode3ys.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 16,
+    "title": "ViaVia Cafe Ayacucho",
+    "category": "restaurants",
+    "location": "Portal Constitucion 4, Ayacucho 05003",
+    "description": " El ViaVia Cafe Ayacucho ofrece un restaurante y alojamientos con conexión WiFi gratuita en Ayacucho, enfrente de la plaza principal de la ciudad.Las habitaciones disponen de TV por cable y baño privado con artículos de aseo gratuitos. Algunas también tienen un minibar e incluyen un desayuno diario. El ViaVia Cafe Ayacucho cuenta con recepción abierta las 24 horas, una terraza y un bar. Además, hay instalaciones para reuniones y consigna de equipaje.",
+    "latitude": -13.16037,
+    "longitude": -74.22728,
+    "thumbnail": "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606548/places/bosujss7shv59ss3yz2n.jpg",
+    "images": [
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606547/places/zuudurenfmblnpabrv0d.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606547/places/xjky6lgon5u7800w7vfr.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606571/places/oisp6zjzfgsn1m5da8rz.jpg",
+      "http://res.cloudinary.com/dqd27kzvn/image/upload/v1717606571/places/thevjckxq6wk5bppcpnh.jpg"
     ],
     "rating": 4.5
   }

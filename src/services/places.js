@@ -1,18 +1,31 @@
-import mockup from '@/mockups/places.json'
+import { db } from './firebase'
 
 async function getPlaces({ category }) {
-  // const placesRef = db.collection('places')
-  // const snapshot = await placesRef.get()
-
   try {
-    const places = mockup.filter((place) => {
-      if (category === 'all') return true
-      return place.category === category
+    const placesRef = db.collection('places')
+
+    console.log(category)
+    const snapshot = category
+      ? await placesRef.where('category', '==', category).get()
+      : await placesRef.get()
+
+    const places = snapshot.docs.map((doc) => {
+      return { id: doc.id, ...doc.data() }
     })
+
     return places
   } catch (error) {
     return []
   }
 }
 
-export { getPlaces }
+async function getPlace(id) {
+  try {
+    const doc = await db.collection('places').doc(id).get()
+    return { id: doc.id, ...doc.data() }
+  } catch (error) {
+    return null
+  }
+}
+
+export { getPlaces, getPlace }

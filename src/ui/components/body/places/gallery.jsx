@@ -40,6 +40,7 @@ export const GalleryPlace = ({
       <div className="aspect-[9/7] rounded-2xl overflow-hidden">
         <img
           src={gallery[current]}
+          loading="lazy"
           alt={title + description}
           className="w-full h-full object-cover transition-all"
         />

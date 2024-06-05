@@ -14,6 +14,18 @@ export const Contributors = () => {
     {
       name: 'marc.o9029',
       href: 'https://www.instagram.com/marc.o9029'
+    },
+    {
+      name: 'bellidocornejo',
+      href: 'https://www.instagram.com/bellidocornejo'
+    },
+    {
+      name: 'anabelsotoloayza',
+      href: 'https://www.instagram.com/anabelsotoloayza'
+    },
+    {
+      name: 'dylsarmientom',
+      href: 'https://www.instagram.com/dylsarmientom'
     }
   ]
   return (

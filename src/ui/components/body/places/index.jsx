@@ -1,35 +1,31 @@
-// import { db } from '@/services/firebase'
 import React from 'react'
 import { Place } from './place'
-import mockup from '@/mockups/places.json'
+import { getPlaces } from '@/services/places'
 export async function Places({ searchParams }) {
-  // const placesRef = db.collection('places')
-  // const snapshot = await placesRef.get()
+  try {
+    const category = searchParams.category ?? 'all'
 
-  const category = searchParams.category ?? 'all'
+    // get places from firestore
+    const places = await getPlaces({ category })
 
-  const places = mockup.filter((place) => {
-    if (category === 'all') return true
-    return place.category === category
-  })
-  return (
-    <div className="grid grid-cols-3 pb-10 gap-x-10 gap-y-5 max-md:grid-cols-2 max-sm:gap-x-5 max-sm:gap-y-2">
-      {places.length === 0 && (
-        <div className="col-span-3 text-center py-36 text-gray-500">
-          No places found
-        </div>
-      )}
-      {places.map((place, index) => (
-        <Place
-          category={place.category}
-          description={place.description}
-          key={index}
-          location={place.location}
-          thumbnail={place.thumbnail}
-          title={place.title}
-          rating={place.rating}
-        />
-      ))}
-    </div>
-  )
+    return (
+      <div className="grid grid-cols-3 pb-10 gap-x-10 gap-y-5 max-md:grid-cols-2 max-sm:gap-x-5 max-sm:gap-y-2">
+        {places.length === 0 && (
+          <div className="col-span-3 text-center py-36 text-gray-500">
+            No places found
+          </div>
+        )}
+        {places.map((place, index) => (
+          <Place place={place} key={index} />
+        ))}
+      </div>
+    )
+  } catch (error) {
+    console.error(error)
+    return (
+      <div className="col-span-3 text-center py-36 text-gray-500">
+        Error loading places
+      </div>
+    )
+  }
 }

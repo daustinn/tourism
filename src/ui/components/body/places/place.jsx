@@ -1,24 +1,35 @@
+'use client'
+
 import { Star } from 'lucide-react'
 import { MapPin } from 'lucide-react'
 import { Heart } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
+// import { categories } from '../categories'
+import { GalleryPlace } from './gallery'
 
-export const Place = ({ thumbnail, title, location, rating }) => {
+export const Place = ({
+  place: { thumbnail, title, location, rating, images, description }
+}) => {
   const url = title.toLowerCase()
+  // const CategoryIcon = categories.find((c) => c.key === category)?.icon
+
   return (
-    <Link href={`/places/${url}`} className="group">
+    <div className="relative group">
       <div className="relative">
-        <button className="absolute hover:scale-110 transition-all top-4 right-4 text-white">
+        <button className="absolute z-10 hover:scale-110 transition-all top-4 right-4 text-white">
           <Heart size={25} fill="rgba(0,0,0,.5)" />
         </button>
-        <div className="aspect-[9/7] rounded-2xl overflow-hidden">
-          <img
-            src={thumbnail}
-            alt={title}
-            className="w-full h-full group-hover:scale-105 transition-transform duration-200 object-cover"
-          />
-        </div>
+
+        <GalleryPlace
+          place={{
+            images,
+            thumbnail,
+            title,
+            description
+          }}
+        />
+
         <div className="pt-2 text-black space-y-2 px-1 font-sans">
           <div className="flex gap-2">
             <h2 className="font-semibold flex-grow">{title}</h2>
@@ -32,9 +43,8 @@ export const Place = ({ thumbnail, title, location, rating }) => {
             {location}
           </p>
         </div>
-        {/* <p>{place.location}</p> */}
-        {/* <p>{place.description}</p> */}
       </div>
-    </Link>
+      <Link href={`/places/${url}`} className="absolute inset-0" />
+    </div>
   )
 }

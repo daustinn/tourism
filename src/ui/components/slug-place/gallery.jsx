@@ -10,14 +10,14 @@ export const GalleryPlace = ({ place }) => {
         {gallery.map((image, index) => (
           <button
             key={index}
-            className={`
-            aspect-[9/9] overflow-hidden group bg-black
-            ${index === 0 ? 'col-span-2 row-span-2' : ''}
-          `}
+            className={`aspect-[9/9] overflow-hidden group bg-black ${
+              index === 0 ? 'col-span-2 row-span-2' : ''
+            }`}
           >
             <img
+              loading="lazy"
+              alt={place.title + place.description}
               src={image}
-              alt={place.title}
               className="w-full h-full group-hover:opacity-70 transition-all object-cover"
             />
           </button>

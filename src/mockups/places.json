@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "title": "Plaza Mayor de Ayacucho",
     "category": "parks",
     "location": "Plaza de la Catedral",
@@ -17,7 +16,6 @@
     "rating": 4.5
   },
   {
-    "id": 2,
     "title": "Complejo Arqueológico de Wari",
     "category": "ruins",
     "location": "Ayacucho-Quinua Km. 23 Pacaycasa Ayacucho 05000 Perú",
@@ -34,7 +32,6 @@
     "rating": 4.5
   },
   {
-    "id": 3,
     "title": "Mirador de Acuchimay",
     "category": "places",
     "location": "Carmen Alto Cerro Acuchimay, Ayacucho, Perú",
@@ -49,7 +46,6 @@
     "rating": 4.5
   },
   {
-    "id": 4,
     "title": "Museo Hipólito Unanue",
     "category": "museums",
     "location": "Independencia 502 Ayacucho 05001",
@@ -66,7 +62,6 @@
     "rating": 4.5
   },
   {
-    "id": 5,
     "title": "Millpu",
     "category": "places",
     "location": "6VX8+496 Centro Poblado de Circamarca 05410",
@@ -83,7 +78,6 @@
     "rating": 4.5
   },
   {
-    "id": 6,
     "title": "Obelisco de la Pampa de la Quinua",
     "category": "places",
     "location": "3275 msnm en las cercanías del pueblo de Quinua a 37 km. al noroeste de la ciudad colonial de Huamanga.",
@@ -100,7 +94,6 @@
     "rating": 4.5
   },
   {
-    "id": 7,
     "title": "Vilcashuaman",
     "category": "ruins",
     "location": "13°37' de latitud sur y 73°57' de longitud oeste, aproximadamente a 100 kilómetros, en línea recta, de la ciudad de Ayacucho.",
@@ -117,7 +110,6 @@
     "rating": 4.5
   },
   {
-    "id": 8,
     "title": "Catedral de Ayacucho",
     "category": "churches",
     "location": "Plaza Mayor n° 100, Ayacucho 05000 Perú",
@@ -134,7 +126,6 @@
     "rating": 4.5
   },
   {
-    "id": 9,
     "title": "Museo Casa del Retablo",
     "category": "museums",
     "location": "Los Artesanos Mz F Lt 1 A 250m Del Terminal, Ayacucho 05001 Perú",
@@ -151,7 +142,6 @@
     "rating": 4.5
   },
   {
-    "id": 10,
     "title": "Cueva de Pikimachay",
     "category": "ruins",
     "location": "Distrito de Pacaycasa, en la provincia de Huamanga- Ayacucho,",
@@ -168,7 +158,6 @@
     "rating": 4.5
   },
   {
-    "id": 11,
     "title": "Museo Andres Avelino Caceres",
     "category": "museums",
     "location": "28 de Julio, Ayacucho 05003",
@@ -185,7 +174,6 @@
     "rating": 4.5
   },
   {
-    "id": 12,
     "title": "Templo de Santo Domingo",
     "category": "churches",
     "location": "9 de Diciembre, Ayacucho 05003",
@@ -202,7 +190,6 @@
     "rating": 4.5
   },
   {
-    "id": 13,
     "title": "Arco del Triunfo",
     "category": "places",
     "location": "28 de Julio 262, Ayacucho 05003",
@@ -219,7 +206,6 @@
     "rating": 4.5
   },
   {
-    "id": 14,
     "title": "Altipacha Ayacucho Hotel",
     "category": "hotels",
     "location": "JR, 28 de Julio 527, Ayacucho 05001",
@@ -237,7 +223,6 @@
   },
 
   {
-    "id": 15,
     "title": "Hotel Santa Rosa",
     "category": "hotels",
     "location": "Jr. Lima 166, Ayacucho",
@@ -254,7 +239,6 @@
     "rating": 4.5
   },
   {
-    "id": 16,
     "title": "ViaVia Cafe Ayacucho",
     "category": "restaurants",
     "location": "Portal Constitucion 4, Ayacucho 05003",

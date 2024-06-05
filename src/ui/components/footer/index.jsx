@@ -1,5 +1,6 @@
 import { Github } from 'lucide-react'
 import React from 'react'
+import { Contributors } from './contributors'
 
 export const Footer = () => {
   return (
@@ -27,6 +28,7 @@ export const Footer = () => {
             Este proyecto es de código abierto y fué desarrollado con fines
             educativos, y está bajo la licencia <b>MIT</b>.
           </p>
+          <Contributors />
         </div>
       </div>
     </footer>

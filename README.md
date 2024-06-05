@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+![image](https://github.com/daustinn/tourism/assets/57356474/5c510ef0-9d2d-4761-b4dd-f57803c2b87b)
 
 ## Getting Started
 

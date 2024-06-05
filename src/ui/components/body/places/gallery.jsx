@@ -20,7 +20,7 @@ export const GalleryPlace = ({
           />
         ))}
       </div>
-      <div className="absolute opacity-0 group-hover:opacity-100 transition-all bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none px-2 flex items-center justify-between inset-0 z-10">
+      <div className="absolute opacity-0 rounded-2xl group-hover:opacity-100 transition-all bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none px-2 flex items-center justify-between inset-0 z-10">
         {[-1, 1].map((direction) => (
           <button
             key={direction}
@@ -37,7 +37,7 @@ export const GalleryPlace = ({
           </button>
         ))}
       </div>
-      <div className="aspect-[9/7] bg-neutral-100 rounded-2xl overflow-hidden">
+      <div className="aspect-[9/7] rounded-2xl overflow-hidden">
         <img
           src={gallery[current]}
           alt={title + description}

@@ -9,11 +9,8 @@ import React from 'react'
 import { GalleryPlace } from './gallery'
 
 export const Place = ({
-  place: { thumbnail, title, location, rating, images, description }
+  place: { id, thumbnail, title, location, rating, images, description }
 }) => {
-  const url = title.toLowerCase()
-  // const CategoryIcon = categories.find((c) => c.key === category)?.icon
-
   return (
     <div className="relative group">
       <div className="relative">
@@ -44,7 +41,7 @@ export const Place = ({
           </p>
         </div>
       </div>
-      <Link href={`/places/${url}`} className="absolute inset-0" />
+      <Link href={`/places/${id}`} className="absolute inset-0" />
     </div>
   )
 }

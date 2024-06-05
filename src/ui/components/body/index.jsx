@@ -8,7 +8,9 @@ export const Body = ({ searchParams }) => {
       <Suspense fallback={<></>}>
         <Categories />
       </Suspense>
-      <Places searchParams={searchParams} />
+      <Suspense fallback={<></>} key={`${searchParams.category}-places`}>
+        <Places searchParams={searchParams} />
+      </Suspense>
     </div>
   )
 }

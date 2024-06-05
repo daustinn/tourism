@@ -11,7 +11,7 @@ export const NavPlace = ({ place }) => {
       <div className="flex items-center gap-2">
         <button className="flex transition-all hover:bg-neutral-200 p-2 rounded-lg items-center text-xs underline underline-offset-2 font-medium gap-1">
           <Share size={20} />
-          Guardar
+          Compartir
         </button>
         <button className="flex transition-all hover:bg-neutral-200 p-2 rounded-lg items-center text-xs underline underline-offset-2 font-medium gap-1">
           <Heart size={20} />

@@ -30,7 +30,7 @@ export const Hero = () => {
           <ViewsPage />
         </div>
         <h1
-          className={`text-6xl font-semibold tracking-tighter text-[#17233e] font-serif animate-fade-in-down ${font.className}`}
+          className={`text-6xl font-semibold tracking-tighter text-[#17233e] animate-fade-in-down ${font.className}`}
         >
           Descubre Ayacucho, Lugares Históricos y Naturales
         </h1>

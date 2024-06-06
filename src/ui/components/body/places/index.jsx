@@ -4,8 +4,6 @@ import { getPlaces } from '@/services/places'
 export async function Places({ searchParams }) {
   try {
     const category = searchParams.category
-
-    // get places from firestore
     const places = await getPlaces({ category })
 
     return (
@@ -21,7 +19,6 @@ export async function Places({ searchParams }) {
       </div>
     )
   } catch (error) {
-    console.error(error)
     return (
       <div className="col-span-3 text-center py-36 text-gray-500">
         Error loading places

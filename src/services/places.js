@@ -3,8 +3,6 @@ import { db } from './firebase'
 async function getPlaces({ category }) {
   try {
     const placesRef = db.collection('places')
-
-    console.log(category)
     const snapshot = category
       ? await placesRef.where('category', '==', category).get()
       : await placesRef.get()

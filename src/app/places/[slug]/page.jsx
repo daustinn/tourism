@@ -20,8 +20,6 @@ export async function generateMetadata({ params }) {
 export default async function PlacePage({ params: { slug } }) {
   const parserSlug = decodeURIComponent(slug)
   try {
-    // delay
-    // await new Promise((resolve) => setTimeout(resolve, 5000))
     const place = await getPlace(parserSlug)
     return <PlaceSlug place={place} />
   } catch (error) {

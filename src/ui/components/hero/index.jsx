@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import { Tai_Heritage_Pro } from 'next/font/google'
-import { Carrusel } from './carrusel'
+// import { Carrusel } from './carrusel'
 import { ViewsPage } from './views'
 
 const font = Tai_Heritage_Pro({
@@ -45,9 +45,7 @@ export const Hero = () => {
           ))}
         </div>
       </header>
-      <div className="max-md:hidden">
-        <Carrusel />
-      </div>
+      <div className="max-md:hidden">{/* <Carrusel /> */}</div>
     </div>
   )
 }

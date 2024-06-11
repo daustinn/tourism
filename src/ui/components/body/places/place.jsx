@@ -12,9 +12,13 @@ export const Place = ({
   place: { id, thumbnail, title, location, rating, images, description }
 }) => {
   return (
-    <div className="relative group">
+    <div className="relative group" data-testid="gallery-place">
       <div className="relative">
-        <button className="absolute z-10 hover:scale-110 transition-all top-4 right-4 text-white">
+        <button
+          role="button"
+          data-testid="heart-button"
+          className="absolute z-10 hover:scale-110 transition-all top-4 right-4 text-white"
+        >
           <Heart size={25} fill="rgba(0,0,0,.5)" />
         </button>
 

@@ -12,7 +12,7 @@ export const GalleryPlace = ({
       <div className="absolute z-20 gap-1 bottom-3 w-full flex justify-center">
         {Array.from({ length: 5 }).map((_, index) => (
           <button
-            role="tab"
+            role="button"
             aria-selected={index === current}
             onClick={() => setCurrent(index)}
             key={index}
@@ -23,6 +23,7 @@ export const GalleryPlace = ({
       <div className="absolute opacity-0 rounded-2xl group-hover:opacity-100 transition-all bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none px-2 flex items-center justify-between inset-0 z-10">
         {[-1, 1].map((direction) => (
           <button
+            role="tab"
             key={direction}
             onClick={() =>
               setCurrent((prev) =>

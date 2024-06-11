@@ -8,7 +8,7 @@ async function getPlaces({ category }) {
       : await placesRef.get()
 
     const places = snapshot.docs.map((doc) => {
-      return { id: doc.id, ...doc.data() }
+      return doc.data()
     })
 
     return places
@@ -20,7 +20,11 @@ async function getPlaces({ category }) {
 async function getPlace(id) {
   try {
     const doc = await db.collection('places').doc(id).get()
-    return { id: doc.id, ...doc.data() }
+    if (!doc.exists) {
+      return null
+    }
+
+    return doc.data()
   } catch (error) {
     return null
   }

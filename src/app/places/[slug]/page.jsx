@@ -1,6 +1,6 @@
 import React from 'react'
-import { PlaceSlug } from '@/ui/components/slug-place'
-import { getPlace } from '@/services/places'
+import { PlaceSlug } from 'ui/components/slug-place'
+import { getPlace } from 'services/places'
 import { notFound } from 'next/navigation'
 
 export async function generateMetadata({ params }) {

@@ -6,8 +6,8 @@ import Link from 'next/link'
 import { Comments } from './comments'
 
 export const PlaceSlug = ({ place }) => {
-  const latitud = -13.04215644190187
-  const longitud = -74.13122401117998
+  const latitud = place?.latitud
+  const longitud = place?.longitud
 
   const constructLink = `https://www.google.com/maps/search/?api=1&query=${latitud},${longitud}`
   return (
@@ -22,12 +22,12 @@ export const PlaceSlug = ({ place }) => {
             className="text-2xl block"
             rel="noreferrer"
           >
-            {place.location}
+            {place?.location}
           </Link>
-          <p>{place.description}</p>
+          <p>{place?.description}</p>
           <div className="flex items-center text-xl gap-1">
             <Star size={15} fill="black" />
-            <p>{place.rating} Estrellas</p>
+            <p>{place?.rating} Estrellas</p>
           </div>
           <div className="border-t">
             <Comments />

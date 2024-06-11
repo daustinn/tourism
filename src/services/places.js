@@ -33,4 +33,17 @@ async function getPlace(id) {
   }
 }
 
-export { getPlaces, getPlace }
+// create a function create a new place
+async function createPlace(data) {
+  try {
+    const docRef = await db.collection('places').add(data)
+    return {
+      id: docRef.id,
+      ...data
+    }
+  } catch (error) {
+    return null
+  }
+}
+
+export { getPlaces, getPlace, createPlace }

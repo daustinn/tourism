@@ -1,6 +1,6 @@
 import React from 'react'
 import { Place } from './place'
-import { getPlaces } from '@/services/places'
+import { getPlaces } from 'services/places'
 export async function Places({ searchParams }) {
   try {
     const category = searchParams.category

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
-import { getPlace } from '../../../../services/places'
-import { auth } from '../../../../utils/middleware-apis'
+import { getPlace } from 'services/places'
+import { auth } from 'utils/middleware-apis'
 
 export async function GET(req, { params }) {
   try {

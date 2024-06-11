@@ -8,7 +8,10 @@ async function getPlaces({ category }) {
       : await placesRef.get()
 
     const places = snapshot.docs.map((doc) => {
-      return doc.data()
+      return {
+        id: doc.id,
+        ...doc.data()
+      }
     })
 
     return places

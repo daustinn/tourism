@@ -1,8 +1,8 @@
-import { Body } from '@/ui/components/body'
-import { Hero } from '@/ui/components/hero'
-import { LineOnduled } from '@/ui/components/line-unduled'
-import { SetViews } from '@/ui/components/set'
 import { Suspense } from 'react'
+import { Body } from 'ui/components/body'
+import { Hero } from 'ui/components/hero'
+import { LineOnduled } from 'ui/components/line-unduled'
+import { SetViews } from 'ui/components/set'
 
 export default function Home({ searchParams }) {
   return (

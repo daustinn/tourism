@@ -6,7 +6,7 @@ export const NavPlace = ({ place }) => {
   return (
     <header className="pb-4 flex">
       <h1 className="text-2xl flex-grow font-semibold font-sans">
-        {place.title}
+        {place?.title}
       </h1>
       <div className="flex items-center gap-2">
         <button className="flex transition-all hover:bg-neutral-200 p-2 rounded-lg items-center text-xs underline underline-offset-2 font-medium gap-1">

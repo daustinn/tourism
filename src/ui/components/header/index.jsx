@@ -14,7 +14,7 @@ export const Header = async () => {
           <div className="flex-grow">
             <Link href="/" className="flex w-fit items-center gap-2">
               <img width={40} src="/favicon.ico" alt="" />
-              <h1 className="text-2xl font-serif">Descubre Ayaucho</h1>
+              <h1 className="text-2xl font-serif">Descubre Ayacucho</h1>
             </Link>
           </div>
           {session ? <UserProfile session={session} /> : <DialogAuth />}

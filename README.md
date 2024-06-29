@@ -1,4 +1,5 @@
-![image](https://github.com/daustinn/tourism/assets/57356474/5c510ef0-9d2d-4761-b4dd-f57803c2b87b)
+![image](https://github.com/daustinn/tourism/assets/57356474/a673168d-64fc-4f01-90f3-928ea62a8a3c)
+
 
 ## Getting Started
 

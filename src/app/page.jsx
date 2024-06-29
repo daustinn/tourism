@@ -7,7 +7,7 @@ import { SetViews } from 'ui/components/set'
 export default function Home({ searchParams }) {
   return (
     <main className="flex-grow flex flex-col">
-      <Suspense fallback={<></>}>
+      <Suspense>
         <SetViews />
       </Suspense>
       <div className="max-w-5xl w-full mx-auto px-4">

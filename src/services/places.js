@@ -27,7 +27,10 @@ async function getPlace(id) {
       return null
     }
 
-    return doc.data()
+    return {
+      id: doc.id,
+      ...doc.data()
+    }
   } catch (error) {
     return null
   }

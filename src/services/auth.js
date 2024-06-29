@@ -9,7 +9,12 @@ class Auth {
     const verified = await verifyPassword(password, finded.password)
     if (!verified) throw new Error('invalid_password')
 
-    const token = sign({ email: finded.email, id: finded.id })
+    const token = sign({
+      email: finded.email,
+      id: finded.id,
+      profile: finded.profile,
+      name: finded.name
+    })
     return {
       token,
       user: finded

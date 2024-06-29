@@ -1,6 +1,5 @@
-import { ArrowRight } from 'lucide-react'
 import { Tai_Heritage_Pro } from 'next/font/google'
-// import { Carrusel } from './carrusel'
+import { Carrusel } from './carrusel'
 import { ViewsPage } from './views'
 
 const font = Tai_Heritage_Pro({
@@ -15,22 +14,10 @@ export const Hero = () => {
     <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1 max-md:flex-col-reverse items-center py-20">
       <header className="">
         <div className="flex items-center gap-2 mb-5">
-          <a
-            href="https://github.com/daustinn/tourism"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-red-700 flex items-center group rounded-xl p-2 shadow-md shadow-red-500/20 px-3 font-semibold text-white"
-          >
-            #Open Source{' '}
-            <ArrowRight
-              size={20}
-              className="group-hover:translate-x-2 transition-all"
-            />
-          </a>
           <ViewsPage />
         </div>
         <h1
-          className={`text-6xl font-semibold tracking-tighter text-[#17233e] animate-fade-in-down ${font.className}`}
+          className={`text-6xl font-semibold tracking-tighter text-[#3e3117] animate-fade-in-down ${font.className}`}
         >
           Descubre Ayacucho, Lugares Históricos y Naturales
         </h1>
@@ -45,7 +32,9 @@ export const Hero = () => {
           ))}
         </div>
       </header>
-      <div className="max-md:hidden">{/* <Carrusel /> */}</div>
+      <div className="max-md:hidden">
+        <Carrusel />
+      </div>
     </div>
   )
 }

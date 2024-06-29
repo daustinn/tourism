@@ -1,27 +1,20 @@
 'use client'
 
-import { Star } from 'lucide-react'
-import { MapPin } from 'lucide-react'
-import { Heart } from 'lucide-react'
+import { Star, MapPin } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
-// import { categories } from '../categories'
 import { GalleryPlace } from './gallery'
+import { ButtonFavorite } from './favorite'
+import { Suspense } from 'react'
+export const Place = ({ place }) => {
+  const { id, thumbnail, title, location, rating, images, description } = place
 
-export const Place = ({
-  place: { id, thumbnail, title, location, rating, images, description }
-}) => {
   return (
     <div className="relative group" data-testid="gallery-place">
       <div className="relative">
-        <button
-          role="button"
-          data-testid="heart-button"
-          className="absolute z-10 hover:scale-110 transition-all top-4 right-4 text-white"
-        >
-          <Heart size={25} fill="rgba(0,0,0,.5)" />
-        </button>
-
+        <Suspense fallback={<></>}>
+          <ButtonFavorite place={place} />
+        </Suspense>
         <GalleryPlace
           place={{
             images,

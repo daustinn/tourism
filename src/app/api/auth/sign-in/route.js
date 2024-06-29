@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { Auth } from 'services/auth'
 import { z } from 'zod'
+import { cookies } from 'next/headers'
 
 // sign in with credentials
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -13,6 +14,14 @@ export async function POST(req) {
     const sucess = await Auth.login({
       email,
       password
+    })
+
+    const store = cookies(req)
+    const token = sucess.token
+    store.set('auth_token', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'strict'
     })
 
     return NextResponse.json(sucess)

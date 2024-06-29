@@ -1,9 +1,8 @@
-import { Inter } from 'next/font/google'
 import './globals.css'
 import { Header } from 'ui/components/header'
 import { Footer } from 'ui/components/footer'
-
-const inter = Inter({ subsets: ['latin'] })
+import { SetServerSession } from './set-server-session'
+import { Suspense } from 'react'
 
 export const metadata = {
   title: 'Descubre Ayacucho, Lugares Históricos y Naturales',
@@ -15,8 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col min-h-svh`}>
+      <body className="flex font-sans flex-col min-h-svh">
         <Header />
+        <Suspense fallback={<></>}>
+          <SetServerSession />
+        </Suspense>
         {children}
         <Footer />
       </body>

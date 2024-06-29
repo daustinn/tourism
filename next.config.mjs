@@ -9,6 +9,7 @@ const nextConfig = {
     API_ROUTES_API_KEY: process.env.API_ROUTES_API_KEY,
     APP_PASSWORD_SECRET_KEY: process.env.APP_PASSWORD_SECRET_KEY,
     APP_SECRET_JWT: process.env.APP_SECRET_JWT
+    // NODE_ENV: process.env.NODE_ENV
   }
 }
 

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { NextResponse } from 'next/server'
 import { createPlace, getPlaces } from 'services/places'
 import { auth } from 'utils/middleware-apis'
@@ -67,3 +68,9 @@ const placeSchema = z.object({
   title: z.string(),
   category: z.string()
 })
+
+export const OPTIONS = async (req) => {
+  return new NextResponse('', {
+    status: 200
+  })
+}

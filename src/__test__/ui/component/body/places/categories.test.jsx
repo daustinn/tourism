@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
-import { Categories, categories } from '@/ui/components/body/categories'
+import { Categories, categories } from 'ui/components/body/categories'
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 
 jest.mock('next/navigation', () => ({

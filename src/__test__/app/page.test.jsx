@@ -1,6 +1,4 @@
-// generate test facke
-
-import PlaceSlug from '@/app/places/[slug]/loading'
+import PlaceSlug from 'app/places/[slug]/loading'
 import { render } from '@testing-library/react'
 
 describe('Home Page', () => {

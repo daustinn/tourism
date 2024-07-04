@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import { Contributors, contributors } from '@/ui/components/footer/contributors'
+import { Contributors, contributors } from 'ui/components/footer/contributors'
 
 describe('Contributors Component', () => {
   beforeEach(() => {
@@ -10,6 +10,7 @@ describe('Contributors Component', () => {
   it('renders a list of contributors', () => {
     contributors.forEach((contributor) => {
       const contributorElement = screen.getByText(contributor.name)
+
       expect(contributorElement).toBeInTheDocument()
       expect(contributorElement.tagName).toBe('A')
       expect(contributorElement).toHaveAttribute('href', contributor.href)

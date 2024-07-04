@@ -6,7 +6,9 @@ export const GalleryPlace = ({
   place: { thumbnail, images, title, description }
 }) => {
   const [gallery] = React.useState([thumbnail].concat(images))
+
   const [current, setCurrent] = React.useState(0)
+
   return (
     <div className="relative">
       <div className="absolute z-20 gap-1 bottom-3 w-full flex justify-center">

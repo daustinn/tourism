@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, screen, fireEvent } from '@testing-library/react'
-import { GalleryPlace } from '@/ui/components/body/places/gallery' // Asegúrate de que la ruta sea correcta
+import { GalleryPlace } from 'ui/components/body/places/gallery'
 
 describe('GalleryPlace Component', () => {
   const place = {
@@ -35,6 +35,7 @@ describe('GalleryPlace Component', () => {
     const navButtons = screen.getAllByRole('tab')
     fireEvent.click(navButtons[1])
     const imgElement = screen.getByAltText(`${place.title}${place.description}`)
+
     expect(imgElement).toHaveAttribute('src', place.images[0])
   })
 })

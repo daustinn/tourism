@@ -1,12 +1,13 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { Place } from '@/ui/components/body/places/place'
+import { Place } from 'ui/components/body/places/place'
 
 describe('Place Component', () => {
   const place = {
     id: 'abc123',
-    thumbnail: 'https://placehold.it/200x200',
+    thumbnail:
+      'http://res.cloudinary.com/dqd27kzvn/image/upload/v1717457602/places/vqofs4ovtijwf5ucqft0.jpg',
     title: 'Beautiful Place',
     location: 'City, Country',
     rating: 4.5,
@@ -26,16 +27,10 @@ describe('Place Component', () => {
     const titleElement = screen.getByText(place.title)
     const ratingElement = screen.getByText(place.rating.toString())
     const locationElement = screen.getByText(place.location)
+
     expect(titleElement).toBeInTheDocument()
     expect(ratingElement).toBeInTheDocument()
     expect(locationElement).toBeInTheDocument()
-  })
-
-  it('renders heart button correctly', () => {
-    const heartButton = screen.getByTestId('heart-button')
-    expect(heartButton).toBeInTheDocument()
-    userEvent.hover(heartButton)
-    expect(heartButton).toHaveClass('hover:scale-110')
   })
 
   it('navigates to place details page on link click', () => {

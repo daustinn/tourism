@@ -1,4 +1,4 @@
-import { Footer } from '@/ui/components/footer/index.jsx'
+import { Footer } from 'ui/components/footer'
 import { render, screen } from '@testing-library/react'
 
 describe('Footer', () => {
